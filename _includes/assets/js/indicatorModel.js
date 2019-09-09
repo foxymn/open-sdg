@@ -64,6 +64,8 @@ var indicatorModel = function (options) {
     };
 
     that.years = extractUnique('Year');
+    
+    console.log(that.data);
 
     if(that.data[0].hasOwnProperty('GeoCode')) {
       that.hasGeoData = true;
